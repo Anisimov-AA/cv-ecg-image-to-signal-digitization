@@ -18,7 +18,7 @@ class CFG:
 
     # --- Paths ---
     data_dir = 'data'
-    save_dir = '/kaggle/working/checkpoints'
+    save_dir = 'checkpoints'
 
     # --- Fold ---
     fold = 0
@@ -44,8 +44,8 @@ class CFG:
 
     # --- Training ---
     epochs = 60
-    batch_size = 4
+    batch_size = 8
     lr = 5e-5
     weight_decay = 1e-4
-    num_workers = 2
+    num_workers = 8
     use_adaptive_sigma = True
